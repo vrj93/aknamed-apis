@@ -4,7 +4,7 @@
   "description": "APIs for creating record for User details and showing details of all Users",
   "main": "server.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
     "dev": "nodemon src/server.js"
   },
   "author": "Vivek Joshi",

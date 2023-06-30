@@ -4,7 +4,7 @@
   "description": "APIs for creating record for User details and showing details of all Users",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "nodemon src/server.js"
   },
   "author": "Vivek Joshi",
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "moment": "^2.29.4",
     "mysql2": "^3.4.2",
     "nodemailer": "^6.9.3",
